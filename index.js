@@ -19,7 +19,7 @@ button.addEventListener('click',()=>{
 
 function renderThankYou(){
     document.getElementById('thankYou').innerHTML = `<img class="thankYouImg" src="images/illustration-thank-you.svg">
-                <div class="rating">You selected out ${ratingSelected} of 5</div>
+                <div class="rating">You selected ${ratingSelected} out of 5</div>
                 <h1>Thank you!</h1>
                 <p>We appreciate you taking the time to give a rating. If you ever need more support, 
                 don’t hesitate to get in touch!</p>`

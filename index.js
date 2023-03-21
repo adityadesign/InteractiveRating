@@ -5,6 +5,9 @@ let ratingSelected =''
 for(let i=0; i<rate.length;i++){
     rate[i].addEventListener('click',(e)=>{
         ratingSelected = e.target.id
+        rate.forEach((li)=>{
+            li.style.backgroundColor = 'hsl(214, 24%, 23%)'
+        })
         document.getElementById(e.target.id).style.backgroundColor = 'hsl(217, 12%, 63%)'
 
     })
